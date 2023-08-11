@@ -1,3 +1,5 @@
+package Clase_2;
+
 public class Producto {
 
     private String marca;
