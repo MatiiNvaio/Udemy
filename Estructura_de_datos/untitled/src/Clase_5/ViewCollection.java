@@ -47,6 +47,6 @@ public class ViewCollection {
         System.out.println("Lista original despues de todo: ");
         for(String nombre:nombreList2){
             System.out.println(nombre);
-        }   
+        }
     }
 }
