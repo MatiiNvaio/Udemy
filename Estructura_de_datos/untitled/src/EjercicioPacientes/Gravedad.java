@@ -1,4 +1,4 @@
-package Clase_7;
+package EjercicioPacientes;
 
 public enum Gravedad {
 
