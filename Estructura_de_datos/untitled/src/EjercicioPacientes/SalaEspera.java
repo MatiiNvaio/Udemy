@@ -4,8 +4,8 @@ import java.util.*;
 
 public class SalaEspera {
 
-    private List<Paciente> pacientes = new LinkedList<>();
-    private LinkedList<Doctor> doctores = new LinkedList<>(listaDoctores());
+    private final List<Paciente> pacientes = new LinkedList<>();
+    private final LinkedList<Doctor> doctores = new LinkedList<>(listaDoctores());
 
     public void nuevoPaciente(String nombre, Integer presion, Double temp, Gravedad gravedad) {
 
@@ -53,7 +53,7 @@ public class SalaEspera {
 
     public void ocuparDoctor(String nombreOcupado) {
         int size = doctores.size();
-        Integer encontrado = 0;
+        int encontrado = 0;
         Doctor doctorDesocupado = new Doctor();
 
         for(int i = 0; i < size; i++){
@@ -99,7 +99,7 @@ public class SalaEspera {
 
     public void desocuparDoctor(String nombreDesocupado) {
         int size = doctores.size();
-        Integer encontrado = 0;
+        int encontrado = 0;
         Doctor doctorOcupado = new Doctor();
 
         for(int i = 0; i < size; i++){
