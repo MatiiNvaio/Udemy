@@ -51,5 +51,4 @@ public class EjercicioPalabras {
 
         System.out.printf("Tamaño: %d%n¿Vacío?: %b%n",miMap.size(), miMap.isEmpty());
     }
-
 }

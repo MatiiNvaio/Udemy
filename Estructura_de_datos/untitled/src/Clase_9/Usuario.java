@@ -48,6 +48,7 @@ public class Usuario {
         this.tel = tel;
     }
 
+
     @Override
     public int hashCode() {
         int hash = 3;
